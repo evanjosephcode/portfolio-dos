@@ -1,0 +1,144 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #d3d3d3;
+}
+
+p {
+  line-height: 2rem;
+}
+
+#download-button {
+  background-color: rgb(236,88,42) !important;
+  box-shadow: 1px 1px black;
+  font-family: 'Joti One', cursive;
+  font-size: 20px;
+  border-radius: 25px;
+}
+
+#download-button:hover {
+  color: rgb(251,238,80);
+}
+
+.brand-logo {
+  padding-left: 20px !important;
+  font-family: "Courier New", Monospace, serif;
+}
+
+
+
+.black {
+  width: 100%;
+  background: black;
+  margin: 0;
+}
+
+.teal-text.text-lighten-2 {
+  color: rgb(236,88,42) !important;
+  font-family: 'Cambo', serif;
+  font-style: italic;
+  text-shadow: 1.5px 1px grey;
+  font-size: 52px;
+}
+
+.iceland {
+  color: white;
+  text-shadow: 1.5px 1px grey;
+/*  font-family: "Courier New", Monospace, serif;*/
+  padding-bottom: 14px !important;
+}
+
+.indeed {
+  color: red;
+  text-align: center;
+}
+
+/*.firstrow {
+  background-color: rgb(236,88,42);
+  margin-bottom: 0px !important;
+}*/
+
+/*.section {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}*/
+
+
+.fun {
+  color: blue;
+  text-align: center;
+}
+
+.oriented {
+  color: green;
+  text-align: center;
+}
+
+.right {
+  float: right;
+  font-family: "Courier New", Monospace, serif;
+
+}
+.navstuff:hover { 
+    color: rgb(251,238,80);
+}
+
+.wanna {
+  color: rgb(70,44,53);
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
+  margin-top: -5px;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.page-footer {
+  background-color: rgb(20,31,25) !important;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
